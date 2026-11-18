@@ -1,0 +1,364 @@
+/* pengaturan dasar */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+body {
+    background-color: #feffff;
+    color: #333333;
+}
+
+/*navbar / header*/
+#sri_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+.sri_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:  #1e293b;
+}
+.logo_icon {
+    color: #2563eb;
+}
+.logo_portofolio{
+    color : #2563eb;
+}
+
+.sri_navbar a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sri_navbar a:hover {
+    color: #2563eb;
+}
+
+/*hero section*/
+*{
+    box-sizing: border-box;
+}
+#sri_hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 8%;
+  gap: 30px;
+  min-height: auto;
+  background : linear-gradient(135deg, #f0fdf4 0%, #eff6ff 100%);
+}
+
+.sri_hero_text{
+    width: 55%;
+    max-width: 550px;
+}
+
+.sri_hero_greeting{
+    font-size: 18px;
+    color: #000000;
+}
+
+.sri_hero_text h1{
+    font-size: 48px;
+    color: #131B2B;
+   
+}
+
+.sri_hero_text h1 span{
+    color: #2563eb;
+}
+
+.sri_hero_text h3 {
+    font-size: 18px;
+    color: #64748b;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.sri_bio {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 480px;
+}
+
+.sri_buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.sri_btn {
+    padding: 12px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.sri_btn_blue {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.sri_btn_outline {
+    background-color: transparent;
+    border: 2px solid #2563eb;
+    color: #2563eb;
+}
+
+.sri_mockup_laptop {
+    width: 40%;
+    max-width: 460px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sri_mockup_laptop img {
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+
+/*About me kotak*/
+.sri_about_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background-color: transparent;
+    padding: 20px 0;
+    border-radius: 0;
+    box-shadow:none;
+}
+.sri_about_text{
+    width: 75%;
+    max-width: 650px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #000000;
+}
+.sri_info_list{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    color:#64748b;
+}
+
+.sri_about_img {
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+.sri_about_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* skills gird*/
+.sri_skills_grid {
+    display: grid;
+    grid-template-columns:repeat(5, 1fr) ;
+    gap:20px;
+}
+
+.sri_skill_card {
+    background-color: #f8fafc;
+    padding: 14px 18px;
+    border-radius: 8px;
+    align-items:center;
+    display: flex;
+    gap: 14px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1e293b;
+}
+.sri_skill_card img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+/* project gird 4 kolom */
+.sri_projects_gird {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap : 15px;
+}
+.sri_project_card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.sri_proj_img {
+    width: 100%;
+    height: 100px;
+    background-color: #f1f5f9;
+    background-color: #c0f3d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.sri_project_info {
+    padding: 12px;
+}
+.sri_project_info h4 {
+    font-size: 14px;
+    color: #1e293b;
+    margin-bottom: 4px;
+}
+.sri_project_info p {
+    font-size: 12px;
+    color: #64748b;
+    margin-bottom: 4px;
+}
+.sri_project_info a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/*footer*/
+#sri_footer {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 20px 8% 15px 8%;
+}
+.sri_footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.sri_footer_brand h3 {
+   color: #3b82f6;
+   font-size: 18px;
+   margin-bottom: 5px;
+}
+.sri_footer_brand h3 span {
+    color: #eff1f3;
+}
+.sri_footer_brand p {
+    font-size: 14px;
+    color: #94a3b8;
+}
+.sri_footer_contacts{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.sri_footer_contacts span{
+    color: #e2e8f0;
+    font-size:14px;
+    white-space: nowrap;
+}
+.sri_footer_bottoms {
+   border-top: 1px solid #334155;
+   padding-top: 15px;
+   color: #94a3b8;
+   font-size: 13px;
+}
+
+/* Tampilan ketika layar mengecil */
+@media screen and (max-width: 900px) {
+    #sri_hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: auto;
+    padding: 40px 8%;
+    text-align: left;
+}
+
+.sri_hero_text {
+    width: 100%; 
+    text-align:left;
+}
+
+.sri_buttons {
+    justify-content: flex-start;
+}
+
+.sri_mockup_laptop {
+     width: 100%;
+}
+
+.sri_about_box{
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap:20px;
+}
+.sri_about_text {
+    width: 100%;
+}
+.sri_info_list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:12x;
+}
+.sri_about_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sri_about_img img {
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+}
+.sri_skills_grid{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+ }
+ .sri_projects_gird {
+    grid-template-columns: repeat(2, 1fr);
+    gap : 15px;
+}
+}
+
+/*container utama section*/
+.sri_section {
+    padding: 40px 8%;
+}
+.sri_section h2 {
+    width:fit-content;
+}
+.sri_section h2::after {
+    content: "";
+    font-size: 24px;
+    color:#06080c;
+    margin-bottom: 15px;
+    display: block;
+    width: 50%;
+    height: 3px;
+    border-bottom: 3px solid #2563eb;
+    padding-bottom: 8px;
+}
